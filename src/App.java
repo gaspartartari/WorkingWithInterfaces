@@ -15,11 +15,7 @@ public class App {
         
         ShapeCollection shapes = new ShapeCollection();
 
-<<<<<<< HEAD
-
         //creating random shapes and adding to a shapeCollection
-=======
->>>>>>> 853f829a34b04783bbb800e042242011438fbacd
         for (int i =0; i < 5; i++){
             Color randomColor = Color.values()[(int) (Math.random() * Color.values().length)];
 
